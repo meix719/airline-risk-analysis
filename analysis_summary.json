@@ -1,0 +1,52 @@
+{
+  "accuracy": 0.7333333333333333,
+  "classification": {
+    "0": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6666666666666666,
+      "support": 6.0
+    },
+    "1": {
+      "precision": 0.7777777777777778,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.7777777777777778,
+      "support": 9.0
+    },
+    "accuracy": 0.7333333333333333,
+    "macro avg": {
+      "precision": 0.7222222222222222,
+      "recall": 0.7222222222222222,
+      "f1-score": 0.7222222222222222,
+      "support": 15.0
+    },
+    "weighted avg": {
+      "precision": 0.7333333333333333,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.7333333333333333,
+      "support": 15.0
+    }
+  },
+  "feature_importance": {
+    "Flight_Duration (Hours)": 0.10846144534559977,
+    "Airplane_Age (Years)": 0.0,
+    "Crew_Experience (Years)": 0.0,
+    "Passenger_Count": 0.0430195636587114,
+    "Airline_Name_Airline A": 0.0,
+    "Airline_Name_Airline B": 0.0,
+    "Airline_Name_Airline C": 0.0,
+    "Scheduled_Departure_Time_Afternoon": 0.0,
+    "Scheduled_Departure_Time_Evening": 0.0,
+    "Scheduled_Departure_Time_Morning": 0.0,
+    "Scheduled_Departure_Time_Night": 0.0,
+    "Weather_Condition_Clear": 0.8485189909956888,
+    "Weather_Condition_Fog": 0.0,
+    "Weather_Condition_Rain": 0.0,
+    "Weather_Condition_Snow": 0.0
+  },
+  "mae_seasonal": 9.166666666666666,
+  "mae_mean": 18.083333333333336,
+  "mae_ses": 31.567507782973337,
+  "mean_baseline_reduction_pct": 49.30875576036867,
+  "monthly_consistency": true
+}

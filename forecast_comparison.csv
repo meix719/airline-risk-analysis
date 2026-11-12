@@ -1,0 +1,4 @@
+Model,2023 holdout MAE
+Seasonal naive,9.166666666666666
+2022 mean baseline,18.083333333333336
+Simple exponential smoothing (alpha 0.7),31.567507782973337
